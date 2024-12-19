@@ -1,11 +1,12 @@
+import Hero from "@/components/hero";
+import scaleImg from "../../../public/scale.jpg";
+
 export default function ScalePage() {
   return (
-    <div>
-      <h1>Scale</h1>
-      <p>
-        This page is using the <code>next/image</code> component to optimize
-        image loading.
-      </p>
-    </div>
+    <Hero
+      imgData={scaleImg}
+      imgAlt="welding"
+      title="Scale your app to infinity"
+    />
   );
 }

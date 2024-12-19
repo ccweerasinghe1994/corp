@@ -1,11 +1,11 @@
+import Hero from "@/components/hero";
+import reliabilityImg from "../../../public/reliability.jpg";
 export default function ReliabilityPage() {
   return (
-    <div>
-      <h1>Reliability</h1>
-      <p>
-        This page is using the <code>next/image</code> component to optimize
-        image loading.
-      </p>
-    </div>
+    <Hero
+      imgData={reliabilityImg}
+      imgAlt="welding"
+      title="Super High Reliability Hosting"
+    />
   );
 }

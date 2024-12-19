@@ -1,11 +1,11 @@
+import Hero from "@/components/hero";
+import performanceImg from "../../../public/performance.jpg";
 export default function PerformancePage() {
   return (
-    <div>
-      <h1>Performance</h1>
-      <p>
-        This page is using the <code>next/image</code> component to optimize
-        image loading.
-      </p>
-    </div>
+    <Hero
+      imgData={performanceImg}
+      imgAlt="welding"
+      title="we serve high performance applications"
+    />
   );
 }
